@@ -18,4 +18,15 @@ export class UserService {
       return [];
     }
   }
+
+  getUserById(id: number): User | null {
+    try {
+      const users = this.getAllUsers();
+      const user = users.find((user) => user.id === id);
+      return user || null;
+    } catch (error) {
+      console.error('Error finding user:', error);
+      return null;
+    }
+  }
 }

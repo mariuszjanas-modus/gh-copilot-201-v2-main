@@ -33,6 +33,10 @@
   transition: all 0.2s ease;
 }
 
+.users-table tbody tr.clickable-row {
+  cursor: pointer;
+}
+
 .users-table tbody tr:hover {
   background-color: var(--row-hover-bg);
   transform: scale(1.001);
