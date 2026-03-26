@@ -1,5 +1,5 @@
 ---
-mode: "agent"
+agent: "agent"
 tools: ["codebase", "githubRepo"]
 description: "Review the Node.js version in the repository and ensure it is up-to-date."
 ---

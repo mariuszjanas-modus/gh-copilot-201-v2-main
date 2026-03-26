@@ -28,4 +28,4 @@ applyTo: "users-api/**"
 
 - Use the .gitignore file to exclude node_modules, .env, and other unnecessary files from version control.
 
-- Copy the template from `~/ModusCreate/gh-copilot-201-v2/Node.gitignore` to `~/ModusCreate/gh-copilot-201-v2/users-api/Node.gitignore`. Then rename it to `.gitignore`.
+- Copy the template from `/Users/mariuszjanas/Desktop/Training/CP201/260326/_code/gh-copilot-201-v2-main/Node.gitignore` to `/Users/mariuszjanas/Desktop/Training/CP201/260326/_code/gh-copilot-201-v2-main/users-api/Node.gitignore`. Then rename it to `.gitignore`.

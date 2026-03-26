@@ -4,14 +4,14 @@ applyTo: "**"
 
 # Root path for this project
 
-Root path for this project is `~/ModusCreate/gh-copilot-201-v2`.
+Root path for this project is `/Users/mariuszjanas/Desktop/Training/CP201/260326/_code/gh-copilot-201-v2-main`.
 
 Make sure to run all commands from the root directory of the project and add the entire path when executing commands that require a path or subdirectory.
 
 Example: when using the terminal, run commands like this:
 
 ```bash
-cd ~/ModusCreate/gh-copilot-201-v2/users-api && npm install
+cd /Users/mariuszjanas/Desktop/Training/CP201/260326/_code/gh-copilot-201-v2-main/users-api && npm install
 ```
 
 Instead of:

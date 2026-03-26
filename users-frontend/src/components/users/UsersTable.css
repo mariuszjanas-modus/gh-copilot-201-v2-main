@@ -1,0 +1,121 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 2rem;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--card-bg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.users-table thead {
+  background-color: var(--table-header-bg);
+}
+
+.users-table th {
+  padding: 1.25rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.users-table tbody tr {
+  border-bottom: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.users-table tbody tr:hover {
+  background-color: var(--row-hover-bg);
+  transform: scale(1.001);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.users-table tbody tr:nth-child(even) {
+  background-color: var(--row-alt-bg);
+}
+
+.users-table tbody tr:nth-child(even):hover {
+  background-color: var(--row-hover-bg);
+}
+
+.users-table td {
+  padding: 1.25rem;
+  color: var(--text-color);
+  font-size: 0.95rem;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.role-badge.admin {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.role-badge.moderator {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.role-badge.user {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+[data-theme='dark'] .role-badge.admin {
+  background-color: #7f1d1d;
+  color: #fecaca;
+}
+
+[data-theme='dark'] .role-badge.moderator {
+  background-color: #78350f;
+  color: #fde68a;
+}
+
+[data-theme='dark'] .role-badge.user {
+  background-color: #1e3a8a;
+  color: #bfdbfe;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    padding: 1rem;
+  }
+
+  .users-table th,
+  .users-table td {
+    padding: 0.875rem;
+    font-size: 0.875rem;
+  }
+
+  .users-table th {
+    font-size: 0.85rem;
+  }
+
+  .role-badge {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .users-table th:first-child,
+  .users-table td:first-child {
+    display: none;
+  }
+}
