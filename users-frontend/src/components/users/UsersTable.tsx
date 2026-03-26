@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import type { User } from '../../types/User';
 import './UsersTable.css';
 
@@ -6,6 +7,8 @@ interface UsersTableProps {
 }
 
 const UsersTable = ({ users }: UsersTableProps) => {
+  const navigate = useNavigate();
+
   const getRoleBadgeClass = (role: string) => {
     switch (role.toLowerCase()) {
       case 'admin':
@@ -15,6 +18,10 @@ const UsersTable = ({ users }: UsersTableProps) => {
       default:
         return 'role-badge user';
     }
+  };
+
+  const handleRowClick = (userId: number) => {
+    navigate(`/users/${userId}`);
   };
 
   return (
@@ -31,7 +38,11 @@ const UsersTable = ({ users }: UsersTableProps) => {
         </thead>
         <tbody>
           {users.map((user) => (
-            <tr key={user.id}>
+            <tr 
+              key={user.id} 
+              onClick={() => handleRowClick(user.id)}
+              className="clickable-row"
+            >
               <td>{user.id}</td>
               <td>{user.name}</td>
               <td>{user.username}</td>

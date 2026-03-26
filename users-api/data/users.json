@@ -4,69 +4,219 @@
     "name": "Alice Johnson",
     "username": "alicej",
     "email": "alice.johnson@example.com",
-    "role": "admin"
+    "role": "admin",
+    "phone": "+1 (555) 123-4567",
+    "avatar": "https://i.pravatar.cc/150?img=1",
+    "bio": "Passionate about technology and innovation. Love building scalable systems and mentoring junior developers.",
+    "address": {
+      "street": "123 Main Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94102",
+      "country": "USA"
+    },
+    "company": {
+      "name": "TechCorp Inc.",
+      "position": "Senior Software Engineer",
+      "department": "Engineering"
+    }
   },
   {
     "id": 2,
     "name": "Bob Smith",
     "username": "bobsmith",
     "email": "bob.smith@example.com",
-    "role": "user"
+    "role": "user",
+    "phone": "+1 (555) 234-5678",
+    "avatar": "https://i.pravatar.cc/150?img=2",
+    "bio": "Frontend developer with a keen eye for design. Specializing in React and modern web technologies.",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "78701",
+      "country": "USA"
+    },
+    "company": {
+      "name": "WebDesign Co.",
+      "position": "Frontend Developer",
+      "department": "Design"
+    }
   },
   {
     "id": 3,
     "name": "Carol Williams",
     "username": "carolw",
     "email": "carol.williams@example.com",
-    "role": "moderator"
+    "role": "moderator",
+    "phone": "+1 (555) 345-6789",
+    "avatar": "https://i.pravatar.cc/150?img=3",
+    "bio": "Community manager and content moderator. Ensuring our platform remains safe and welcoming for everyone.",
+    "address": {
+      "street": "789 Pine Road",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA"
+    },
+    "company": {
+      "name": "SocialHub",
+      "position": "Community Manager",
+      "department": "Community"
+    }
   },
   {
     "id": 4,
     "name": "David Brown",
     "username": "davidb",
     "email": "david.brown@example.com",
-    "role": "user"
+    "role": "user",
+    "phone": "+1 (555) 456-7890",
+    "avatar": "https://i.pravatar.cc/150?img=4",
+    "bio": "Data scientist exploring the intersection of AI and business intelligence. Python enthusiast.",
+    "address": {
+      "street": "321 Elm Street",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02101",
+      "country": "USA"
+    },
+    "company": {
+      "name": "DataAnalytics LLC",
+      "position": "Data Scientist",
+      "department": "Analytics"
+    }
   },
   {
     "id": 5,
     "name": "Emma Davis",
     "username": "emmad",
     "email": "emma.davis@example.com",
-    "role": "user"
+    "role": "user",
+    "phone": "+1 (555) 567-8901",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "bio": "UX/UI designer focused on creating intuitive and beautiful user experiences. Coffee addict.",
+    "address": {
+      "street": "654 Maple Drive",
+      "city": "Portland",
+      "state": "OR",
+      "zipCode": "97201",
+      "country": "USA"
+    },
+    "company": {
+      "name": "Creative Studios",
+      "position": "UX Designer",
+      "department": "Design"
+    }
   },
   {
     "id": 6,
     "name": "Frank Miller",
     "username": "frankm",
     "email": "frank.miller@example.com",
-    "role": "admin"
+    "role": "admin",
+    "phone": "+1 (555) 678-9012",
+    "avatar": "https://i.pravatar.cc/150?img=6",
+    "bio": "System administrator with 15 years of experience. Keeping servers running smoothly since 2009.",
+    "address": {
+      "street": "987 Cedar Lane",
+      "city": "Denver",
+      "state": "CO",
+      "zipCode": "80201",
+      "country": "USA"
+    },
+    "company": {
+      "name": "CloudServe Inc.",
+      "position": "System Administrator",
+      "department": "Operations"
+    }
   },
   {
     "id": 7,
     "name": "Grace Wilson",
     "username": "gracew",
     "email": "grace.wilson@example.com",
-    "role": "moderator"
+    "role": "moderator",
+    "phone": "+1 (555) 789-0123",
+    "avatar": "https://i.pravatar.cc/150?img=7",
+    "bio": "Customer support specialist and moderator. Always here to help with a smile.",
+    "address": {
+      "street": "147 Birch Street",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101",
+      "country": "USA"
+    },
+    "company": {
+      "name": "SupportPro",
+      "position": "Support Specialist",
+      "department": "Customer Service"
+    }
   },
   {
     "id": 8,
     "name": "Henry Moore",
     "username": "henrym",
     "email": "henry.moore@example.com",
-    "role": "user"
+    "role": "user",
+    "phone": "+1 (555) 890-1234",
+    "avatar": "https://i.pravatar.cc/150?img=8",
+    "bio": "Backend developer specializing in microservices and distributed systems. Node.js expert.",
+    "address": {
+      "street": "258 Willow Court",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "company": {
+      "name": "MicroTech Solutions",
+      "position": "Backend Developer",
+      "department": "Engineering"
+    }
   },
   {
     "id": 9,
     "name": "Ivy Taylor",
     "username": "ivyt",
     "email": "ivy.taylor@example.com",
-    "role": "user"
+    "role": "user",
+    "phone": "+1 (555) 901-2345",
+    "avatar": "https://i.pravatar.cc/150?img=9",
+    "bio": "DevOps engineer passionate about automation and CI/CD pipelines. Docker and Kubernetes enthusiast.",
+    "address": {
+      "street": "369 Spruce Avenue",
+      "city": "Atlanta",
+      "state": "GA",
+      "zipCode": "30301",
+      "country": "USA"
+    },
+    "company": {
+      "name": "AutoDeploy Inc.",
+      "position": "DevOps Engineer",
+      "department": "Operations"
+    }
   },
   {
     "id": 10,
     "name": "Jack Anderson",
     "username": "jacka",
     "email": "jack.anderson@example.com",
-    "role": "user"
+    "role": "user",
+    "phone": "+1 (555) 012-3456",
+    "avatar": "https://i.pravatar.cc/150?img=10",
+    "bio": "Full-stack developer with a focus on building performant web applications. JavaScript lover.",
+    "address": {
+      "street": "741 Ash Boulevard",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "company": {
+      "name": "FullStack Labs",
+      "position": "Full Stack Developer",
+      "department": "Engineering"
+    }
   }
 ]
